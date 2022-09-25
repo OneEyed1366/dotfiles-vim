@@ -1,0 +1,12 @@
+let g:netrw_dirhistmax  =10
+let g:netrw_dirhistcnt =3
+let g:netrw_dirhist_3='/Users/andrejprokopenko/.config/nvim'
+let g:netrw_dirhist_2='/Users/andrejprokopenko/.config'
+let g:netrw_dirhist_1='/Users/andrejprokopenko/.config/nvim'
+let g:netrw_dirhist_0='/Users/andrejprokopenko/.config/nvim/lua/plugins'
+let g:netrw_dirhist_9='/Users/andrejprokopenko/.config/nvim/lua'
+let g:netrw_dirhist_8='/Users/andrejprokopenko/.config/nvim'
+let g:netrw_dirhist_7='/Users/andrejprokopenko/.config/nvim/lua/plugins'
+let g:netrw_dirhist_6='/Users/andrejprokopenko/.config/nvim/lua'
+let g:netrw_dirhist_5='/Users/andrejprokopenko/.config/nvim'
+let g:netrw_dirhist_4='/Users/andrejprokopenko/.config/nvim/plugin'

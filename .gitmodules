@@ -1,0 +1,72 @@
+[submodule "bundle/auto-pairs"]
+	path = bundle/auto-pairs
+	url = git@github.com:jiangmiao/auto-pairs.git
+[submodule "bundle/coc.nvim"]
+	path = bundle/coc.nvim
+	url = git@github.com:neoclide/coc.nvim.git
+[submodule "bundle/fzf"]
+	path = bundle/fzf
+	url = git@github.com:junegunn/fzf.git
+[submodule "bundle/nerdtree"]
+	path = bundle/nerdtree
+	url = git@github.com:preservim/nerdtree.git
+[submodule "bundle/onedark.vim"]
+	path = bundle/onedark.vim
+	url = https://github.com/joshdick/onedark.vim
+[submodule "bundle/rainbow_parentheses.vim"]
+	path = bundle/rainbow_parentheses.vim
+	url = https://github.com/kien/rainbow_parentheses.vim
+[submodule "bundle/vim-airline"]
+	path = bundle/vim-airline
+	url = git@github.com:vim-airline/vim-airline.git
+[submodule "bundle/vim-airline-themes"]
+	path = bundle/vim-airline-themes
+	url = git@github.com:vim-airline/vim-airline-themes.git
+[submodule "bundle/vim-closetag"]
+	path = bundle/vim-closetag
+	url = git@github.com:alvan/vim-closetag.git
+[submodule "bundle/vim-css-color"]
+	path = bundle/vim-css-color
+	url = https://github.com/ap/vim-css-color
+[submodule "bundle/vim-gitgutter"]
+	path = bundle/vim-gitgutter
+	url = git@github.com:airblade/vim-gitgutter.git
+[submodule "bundle/vim-polyglot"]
+	path = bundle/vim-polyglot
+	url = git@github.com:sheerun/vim-polyglot.git
+[submodule "bundle/vim-startify"]
+	path = bundle/vim-startify
+	url = git@github.com:mhinz/vim-startify.git
+[submodule "bundle/vim-styled-components"]
+	path = bundle/vim-styled-components
+	url = git@github.com:styled-components/vim-styled-components.git
+[submodule "bundle/vim-surround"]
+	path = bundle/vim-surround
+	url = https://github.com/tpope/vim-surround
+[submodule "bundle/vim-transparent"]
+	path = bundle/vim-transparent
+	url = git@github.com:tribela/vim-transparent.git
+[submodule "bundle/wilder.nvim"]
+	path = bundle/wilder.nvim
+	url = git@github.com:gelguy/wilder.nvim.git
+[submodule "bundle/nerdtree-git-plugin"]
+	path = bundle/nerdtree-git-plugin
+	url = git@github.com:Xuyuanp/nerdtree-git-plugin.git
+[submodule "bundle/vim-devicons"]
+	path = bundle/vim-devicons
+	url = git@github.com:ryanoasis/vim-devicons.git
+[submodule "bundle/vim-commentary"]
+	path = bundle/vim-commentary
+	url = git@github.com:tpope/vim-commentary.git
+[submodule "bundle/ctrlsf.vim"]
+	path = bundle/ctrlsf.vim
+	url = git@github.com:dyng/ctrlsf.vim.git
+[submodule "bundle/ale"]
+	path = bundle/ale
+	url = https://github.com/dense-analysis/ale.git
+[submodule "bundle/vim-easycomplete"]
+	path = bundle/vim-easycomplete
+	url = git@github.com:jayli/vim-easycomplete.git
+[submodule "bundle/vim-tailwindcss"]
+	path = bundle/vim-tailwindcss
+	url = git@github.com:mrdotb/vim-tailwindcss.git
