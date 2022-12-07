@@ -1,3 +1,4 @@
 {
-	""diagnostic.displayByAle": true
+  "coc.preferences.formatOnSave": true,
+  "coc.source.file.trimSameExts": [".js", ".jsx", ".ts", ".tsx"]
 }

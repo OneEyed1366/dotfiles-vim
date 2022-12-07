@@ -3,11 +3,15 @@ nnoremap <ESC> :noh<CR>
 inoremap jk <ESC>
 " Reload current config
 nnoremap <Leader><Leader> :source $MYVIMRC<CR>
-nnoremap <Leader>ve :e $MYVIMRC<CR>
+nnoremap <Leader>Ve :e $MYVIMRC<CR>
+nnoremap <Leader>Vc :e ~/.vim/pack/plugins/start/vimrc/plugin/settings.vim<CR>
+nnoremap <Leader>Vk :e ~/.vim/pack/plugins/start/vimrc/plugin/keymappings.vim
+nnoremap <Leader>Vi :PlugInstall<CR>
+nnoremap <Leader>Vs :PlugStatus<CR>
 " Write to file
 nnoremap <Leader>m :w<CR>
 " Close all windows
-nnoremap <Leader>qq :qall<CR>
+nnoremap <Leader>q<Space> :qall<CR>
 " Window movements
 nnoremap <Leader>wh <C-W>h
 nnoremap <Leader>wj <C-W>j
@@ -22,7 +26,7 @@ nnoremap <Leader>bD :bd!<CR>
 nnoremap <Tab> :bNext<CR>
 nnoremap <S-Tab> :bprevious<CR>
 " Tab actions
-nnoremap <Leader>to :tabnew <CR>
+nnoremap <Leader>ot :tabnew <CR>
 nnoremap <Leader>td :tabclose<CR>
 nnoremap <Leader><Tab> :tabNext<CR>
 nnoremap <Leader><S-Tab> :tabprevious<CR>

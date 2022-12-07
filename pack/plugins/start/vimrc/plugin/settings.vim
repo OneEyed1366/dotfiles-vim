@@ -1,5 +1,6 @@
-colorscheme onedark
+colorscheme sonokai 
 
+:set clipboard=unnamed
 :set updatetime=100
 :set backspace=indent,eol,start
 :set relativenumber
