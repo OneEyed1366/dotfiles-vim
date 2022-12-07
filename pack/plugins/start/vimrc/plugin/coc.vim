@@ -61,12 +61,8 @@ if has_key(plugs, 'coc.nvim')
 	nnoremap <silent> K :call <SID>show_documentation()<CR>
 
 	nnoremap <Leader>cr <Plug>(coc-rename)
-
-	nnoremap <Leader><CR>  <Plug>(coc-codeaction-selected)
-	xmap <Leader><CR>  <Plug>(coc-codeaction-selected)
-
 	" Remap keys for applying codeAction to the current buffer.
-	nnoremap <Leader><CR>  <Plug>(coc-codeaction)
+	nnoremap <Leader>c<CR>  <Plug>(coc-codeaction)
 	" Apply AutoFix to problem on the current line.
 	nnoremap <Leader>cf  <Plug>(coc-fix-current)
 	" Search workspace symbols.
