@@ -1,8 +1,13 @@
 colorscheme sonokai 
 
-:set clipboard=unnamed
-:set updatetime=100
-:set backspace=indent,eol,start
+:set noswapfile
+:set smartindent
+:set copyindent
+:set preserveindent
+:set cursorline
+:set splitbelow
+:set expandtab
+:set foldenable
 :set relativenumber
 :set showmatch
 :set hlsearch
@@ -10,3 +15,13 @@ colorscheme sonokai
 :set cursorline
 :set nobackup
 :set incsearch
+:set nowrap
+:set noshowmode
+:set nosplitright
+:set swapfile
+:set scrolloff=4
+:set conceallevel=0
+:set updatetime=100
+:set mouse=a
+:set clipboard=unnamed
+:set backspace=indent,eol,start
