@@ -15,7 +15,11 @@ if has_key(plugs, 'vim-floaterm')
 	tnoremap <Leader>h <C-\><C-n>:FloatermPrev<CR>
 
 	nnoremap <Leader><CR> :FloatermToggle<CR>
-	tnoremap <Leader><CR> <C-\><C-n>:FloatermToggle<CR><CR>
+	tnoremap <Leader><CR> <C-\><C-n>:FloatermToggle<CR>
 
 	nnoremap <Leader>g<CR> :FloatermNew lazygit<CR>
+
+	nnoremap <Leader>b<CR> <C-\><C-n>:FloatermKill
+	tnoremap <Leader>b<CR> <C-\><C-n>:FloatermKill<CR>
+
 endif
