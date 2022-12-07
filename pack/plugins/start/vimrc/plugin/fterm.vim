@@ -5,7 +5,7 @@ if has_key(plugs, 'vim-floaterm')
 	" Close terminal when exit VIM
 	autocmd QuitPre * FloatermKill!
 
-	nnoremap <Leader>o<CR> :FloatermNew --height=0.6 --width=0.4 --wintype=float --name=floaterm1 --position=topleft --autoclose=2 ranger --cmd="cd ~"<CR>
+	nnoremap <Leader>o<CR> :FloatermNew<CR>
 	tnoremap <Leader>o<CR> <C-\><C-n>:FloatermNew --height=0.6 --width=0.4 --wintype=float --name=floaterm1 --position=topleft --autoclose=2 ranger --cmd="cd ~"<CR>
 
 	nnoremap <Leader>l :FloatermNext<CR>
