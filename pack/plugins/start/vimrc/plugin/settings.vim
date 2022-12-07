@@ -1,6 +1,6 @@
 colorscheme sonokai 
 
-:set noswapfile
+
 :set smartindent
 :set copyindent
 :set preserveindent
@@ -19,6 +19,8 @@ colorscheme sonokai
 :set noshowmode
 :set nosplitright
 :set swapfile
+
+:set directory^=~/.local/vim/tmp//
 :set scrolloff=4
 :set conceallevel=0
 :set updatetime=100
