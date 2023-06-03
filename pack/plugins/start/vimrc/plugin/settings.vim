@@ -12,7 +12,6 @@ colorscheme sonokai
 :set showmatch
 :set hlsearch
 :set ignorecase
-:set cursorline
 :set nobackup
 :set incsearch
 :set nowrap

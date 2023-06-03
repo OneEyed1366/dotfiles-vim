@@ -1,4 +1,6 @@
 {
   "coc.preferences.formatOnSave": true,
-  "coc.source.file.trimSameExts": [".js", ".jsx", ".ts", ".tsx"]
+  "coc.source.file.trimSameExts": [".js", ".jsx", ".ts", ".tsx"],
+  "suggest.virtualText": true,
+  "colors.enable": true
 }

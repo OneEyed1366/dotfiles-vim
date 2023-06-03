@@ -68,7 +68,6 @@ if has_key(plugs, 'coc.nvim')
 	" Search workspace symbols.
 	nnoremap <silent><nowait> <Leader>c.  :<C-u>CocList -I symbols<cr>
 	" Mappings for CoCList
-	"
 	" Show all diagnostics.
 	nnoremap <silent><nowait> <Leader>ct  :<C-u>CocList diagnostics<cr>
 	" Manage extensions.
